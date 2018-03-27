@@ -1,26 +1,26 @@
 # Literally-Anything
 
-## personnel
+## Personnel
 Jeremy Chen and Jiajie Mai
 
-## statement of problem
+## Statement of Problem
 
-return the solution(s?) of the maze from the designated start point to the designated end point
+Return the solution(s?) of the maze from the designated start point to the designated end point
 
-## base case
+## Base Case
 
 When there is only one path to proceed.
 
-## recursive abstraction
+## Recursive Abstraction
 
 When I am asked to choose between n paths where n > 1(and assumed n < 4), the recursive abstraction can provide a
 choice of n – 1 paths to choose between.
 
-## solution to the base case
+## Solution to the Base Case
 
 Proceed down that path.
 
-## decision base case vs. recursive case
+## Decision Base Case vs. Recursive Case
 
 If there is more than one path, invoke the recursive
 abstraction.
