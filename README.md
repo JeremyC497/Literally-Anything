@@ -14,14 +14,20 @@ choice of n – 1 paths to choose between.
 
 ## Base Case
 
-When there is only one path to proceed.
+When the end point has been reached.
 
 ## English or pseudocode description of algorithm
 
+If the base case is true, then it should stop and return the solution.
+Else, the method will proceed based on the number of paths available.
+If there is one path, it will proceed down that path.
+If there is more than one path, it will invoke the recursive abstraction.
 
 ## class(es), with fields and methods
 
 
+
 ## version*n* wish list
+
 
 
