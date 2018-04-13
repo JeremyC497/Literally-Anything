@@ -44,3 +44,6 @@ else
 
 
 
+## known bugs
+The explorer has to be placed on a coordinate that is not a wall.
+The explorer also cannot be placed outside of the maze when declaring coordinates.
