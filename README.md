@@ -36,11 +36,12 @@ else
 		else 
 			move back to original position
 
-## class(es), with fields and methods
+## Class(es), with fields and methods
 
+## Version 1 wish list
 
+Improve the code so that the maze solver works even when not placed in a wall.
 
-## version*n* wish list
-
+Adding a System.out.println() to all its moves is also a nice addition.
 
 
