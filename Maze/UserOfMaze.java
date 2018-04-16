@@ -156,16 +156,14 @@ public class UserOfMaze {
 
         Maze snapshot;
 
-        throw new java.lang.RuntimeException(
-            "Write code to take a snapshot of @candidate. "
-          + "Then, in @candidate, have the explorer go() out of the maze.");
+        //throw new java.lang.RuntimeException(snapshot.explorerPosition = canidate.explorerPosition);
 
         System.out.println(
                             "modified candidate with no explorer"
                           + System.lineSeparator()
                           + candidate + System.lineSeparator()
                           + "unchanged snapshot" + System.lineSeparator()
-                          + snapshot + System.lineSeparator()
+			    //+ snapshot + System.lineSeparator()
                           );
 
         /* Expecting...
@@ -180,9 +178,7 @@ public class UserOfMaze {
               ------
          */
 
-        throw new java.lang.RuntimeException(
-            "Write code to undo the go() by making @candidate refer "
-          + "to an unchanged copy of the maze.");
+        //throw new java.lang.RuntimeException(canidate.explorerPosition = snapshot.explorerPosition);
 
         System.out.println(
                             "restored candidate, with an explorer"

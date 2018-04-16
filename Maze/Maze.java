@@ -12,7 +12,6 @@
   plus an optional explorer positioned on any element of the Maze.
  */
 import java.util.Scanner;
-
 public class Maze {
 
     // MazeTerminal named constants
@@ -228,5 +227,18 @@ public class Maze {
         private boolean equals( int rank, int file) {
             return this.rank == rank && this.file == file;
         }
+
+	public void move() {
+	    int row;
+	    int whichExplorer;
+	    for (row = 0; row < maze.length; row++) {
+		for (int column = 0; column < maze[row].length; column++) {
+		    if (maze[row][column] == 2) {
+			maze[row][column] = 1;
+			maze[(int) Math.random() * row][(int) Math.random() * column] = 2;
+		    }
+		}
+	    }
+	}
     }
 }
