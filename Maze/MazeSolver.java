@@ -15,7 +15,7 @@ public class MazeSolver {
 	    System.out.println(mazeToSolve);
 	    return true;}
         else if (mazeToSolve.explorerIsOnA() == Maze.WALL){
-
+	return false;
 	    //moves the explorer to a random place that is not a wall for now
 
 	    //mazeToSolve.move();}
