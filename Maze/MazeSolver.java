@@ -18,7 +18,8 @@ public class MazeSolver {
 	return false;
 	    //moves the explorer to a random place that is not a wall for now
 
-	    //mazeToSolve.move();}
+	    //mazeToSolve.move();
+}
 		
         //recursive case	
         else{
