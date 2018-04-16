@@ -31,6 +31,7 @@ public class MazeSolver {
 	    System.out.println("Testing North");
             mazeToSolve.go(mazeToSolve.NORTH); 
             if (possible() == true){
+		System.out.println("Moving North");
 		return true;}
             else{
                 mazeToSolve = new Maze(currentProgress);
@@ -41,6 +42,7 @@ public class MazeSolver {
 	    System.out.println("Testing East");
             mazeToSolve.go(mazeToSolve.EAST); 
             if (possible() == true){
+		System.out.println("Moving East");
 		return true;}
             else{
                 mazeToSolve = new Maze(currentProgress);
@@ -51,6 +53,7 @@ public class MazeSolver {
 	    System.out.println("Testing South");
             mazeToSolve.go(mazeToSolve.SOUTH); 
             if (possible() == true){
+		System.out.println("Moving South");
 		return true;}
             else{
                 mazeToSolve = new Maze(currentProgress);
@@ -61,6 +64,7 @@ public class MazeSolver {
 	    System.out.println("Testing West");
             mazeToSolve.go(mazeToSolve.WEST); 
             if (possible() == true){
+		System.out.println("Moving West");
 		return true;}
             else{
                 mazeToSolve = new Maze(currentProgress);
