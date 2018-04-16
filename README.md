@@ -45,3 +45,6 @@ Improve the code so that the maze solver works even when not placed in a wall.
 Adding a System.out.println() to all its moves is also a nice addition.
 
 
+## known bugs
+The explorer has to be placed on a coordinate that is not a wall.
+The explorer also cannot be placed outside of the maze when declaring coordinates.
